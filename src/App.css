@@ -1,0 +1,51 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+body {
+  font-family: 'Stick', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #666;
+}
+
+input {
+  margin-left: 8px;
+}
+
+p {
+  margin: 0;
+}
+button {
+  border-radius: 8px;
+  border: none;
+  margin: 0px 2px;
+}
+
+button:hover {
+  background-color: #79a8a9;
+  color: #fff;
+  cursor: pointer;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  border: 2px solid #000;
+  margin: 20px 0;
+}
+
+th {
+  background-color: #eaf1f2;
+  padding: 10px;
+  text-align: center;
+  border-bottom: 2px solid #000;
+}
+
+td {
+  padding: 10px;
+  text-align: center;
+  border-bottom: 1px solid #000;
+}
