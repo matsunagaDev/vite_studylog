@@ -32,8 +32,9 @@ React のコンポーネントの概念、DB 連携した登録・削除処理�
 
 <!-- Treeコマンドを使ってディレクトリ構成を記載 -->
 
-> tree -a -I "node*modules|.next|.git|.cache|dist|static|.vscode|.firebase|\_cache*"
+❯ tree -a -I "node*modules|.next|.git|.cache|dist|static|.vscode|.firebase|\_cache*"
 
+<pre>
 .
 ├── .babelrc
 ├── .env
@@ -73,8 +74,13 @@ React のコンポーネントの概念、DB 連携した登録・削除処理�
 │   ├── supabase.js
 │   └── supabaseFunction.js
 └── vite.config.js
+<pre>
 
 ## 使用方法
 
 アプリを起動後、学習内容と学習時間を入力し登録を実行すると、画面上に登録した内容がリスト表示されます。
 登録した内容は削除することも可能です。
+
+## 補足
+
+「componentTest.spec.jsx」ファイルには、追加と削除のテストを記載していますが、処理が安定していないため削除の一部をコメントアウトにしています。
