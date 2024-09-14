@@ -33,45 +33,46 @@ React のコンポーネントの概念、DB 連携した登録・削除処理�
 <!-- Treeコマンドを使ってディレクトリ構成を記載 -->
 
 > tree -a -I "node*modules|.next|.git|.cache|dist|static|.vscode|.firebase|\_cache*"
-> .
-> ├── .babelrc
-> ├── .env
-> ├── .eslintrc.cjs
-> ├── .firebaserc
-> ├── .github
-> │   └── workflows
-> │   └── firebase-deploy.yml
-> ├── .gitignore
-> ├── Makefile
-> ├── README.md
-> ├── eslint.config.js
-> ├── firebase.json
-> ├── index.html
-> ├── jest.config.mjs
-> ├── jest.setup.js
-> ├── package-lock.json
-> ├── package.json
-> ├── public
-> │   └── vite.svg
-> ├── src
-> │   ├── App.css
-> │   ├── StudyRecordsApp.jsx
-> │   ├── assets
-> │   │   └── react.svg
-> │   ├── components
-> │   │   ├── InputStudyRecord.jsx
-> │   │   └── ListStudyRecords.jsx
-> │   ├── index.css
-> │   ├── main.jsx
-> │   └── tests
-> │   ├── componentInputValidation.spec.jsx
-> │   ├── componentTest.spec.jsx
-> │   ├── componenteSample.spec.jsx
-> │   └── sample.spec.js
-> ├── util
-> │   ├── supabase.js
-> │   └── supabaseFunction.js
-> └── vite.config.js
+
+.
+├── .babelrc
+├── .env
+├── .eslintrc.cjs
+├── .firebaserc
+├── .github
+│   └── workflows
+│   └── firebase-deploy.yml
+├── .gitignore
+├── Makefile
+├── README.md
+├── eslint.config.js
+├── firebase.json
+├── index.html
+├── jest.config.mjs
+├── jest.setup.js
+├── package-lock.json
+├── package.json
+├── public
+│   └── vite.svg
+├── src
+│   ├── App.css
+│   ├── StudyRecordsApp.jsx
+│   ├── assets
+│   │   └── react.svg
+│   ├── components
+│   │   ├── InputStudyRecord.jsx
+│   │   └── ListStudyRecords.jsx
+│   ├── index.css
+│   ├── main.jsx
+│   └── tests
+│   ├── componentInputValidation.spec.jsx
+│   ├── componentTest.spec.jsx
+│   ├── componenteSample.spec.jsx
+│   └── sample.spec.js
+├── util
+│   ├── supabase.js
+│   └── supabaseFunction.js
+└── vite.config.js
 
 ## 使用方法
 
