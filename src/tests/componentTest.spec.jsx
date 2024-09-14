@@ -92,6 +92,7 @@ describe('StudyRecord Add & StudyRecord Delete', () => {
     // 削除後のレコード数を確認
     await waitFor(() => {
       const updateStudyRecords = screen.getAllByRole('row');
+      console.log('削除後のレコード数:', updateStudyRecords.length);
       expect(updateStudyRecords.length).toBe(initialRecordItems.length - 1);
     });
   });
